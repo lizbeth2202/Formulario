@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="/action-page.php" method="post">
+        <h2>FORMULARIO</h2>
+        <div>
+            <label for="nombre" class="subtitulo">Nombre</label>
+            <input type= "text" id="nombre" placeholder="Lizbeth Brenda">
+        </div>
+        
+        <div>
+            <label for="apellido" class="subtitulo" >Apellido</label>
+            <input type= "text" id="apellido" placeholder="Montes Sarmiento">
+        </div>
+        
+        <div>
+            <label for="sexo"  class="subtitulo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option>selecionar</option>
+                <option>femenino</option>
+                <option>masculino</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="gmail" class="subtitulo" >Gmail</label>
+            <input type= "text" id="gmail" placeholder="lizbethmontessarmiento@gmail">
+        </div>
+        
+        <div>
+            <label for="telefono"  class="subtitulo">Teléfono</label>
+            <input type= "text" id="telefono" placeholder="927928479">
+        </div>
+        
+        <div>
+            <label for="direccion" class="subtitulo" >Dirección</label>
+            <input type= "text" id="direccion" placeholder="manzana k lote 6 a.s los pinos">
+        </div>
+        
+        <div>
+            <textarea name="texto" id="texto" cols="40" rows="20" placeholder="Que es lo que buscas en mi empresa"></textarea>
+        </div>
+        
+        <button type="submit" id="boton">ENVIAR</button>
+        
+    </form>
+
+</body>
+</html>
+
